@@ -10,6 +10,7 @@
         <!-- Place favicon.ico in the root directory -->
         
 		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
         <link rel="stylesheet" href="assets/css/audioplayer.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">  
@@ -301,7 +302,13 @@
                         </div>
                         <div class="col-md-6">
                             <div class="select__blk">
-
+                                <select class="wide">
+                                    <option data-display="Moving AI images">Moving AI images</option>
+                                    <option value="1">Some option</option>
+                                    <option value="2">Another option</option>
+                                    <option value="3" disabled>A disabled option</option>
+                                    <option value="4">Potato</option>
+                                  </select>
                             </div>
                         </div>
                         <div class="col-md-6"></div>
@@ -352,7 +359,7 @@
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="Video__card owl-carousel">
+                            <div class="Video__card owl-carousel Video__slider">
                                 <a href="javascript:void(0)">
                                     <i><img src="assets/img/video-card-1.png" alt=""></i>
                                     <p>Image Creation</p>
@@ -590,6 +597,7 @@
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="assets/js/audioplayer.js"></script>
         <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>

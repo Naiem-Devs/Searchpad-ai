@@ -112,6 +112,13 @@ body{
     .header__right a {
         font-size: 12px;
     }
+    .banner__wrp {
+        padding: 0 40px;
+    }
+    
+    .svc_card i span {
+        scale: .6;
+    }
 }
 
  
@@ -195,6 +202,13 @@ a.humbergar.siteBar-btn span {
 
 .header__right a span {
     display: none;
+}
+.banner__wrp {
+    padding: 0 40px;
+}
+
+.svc_card{
+    margin-bottom: 20px;
 }
 
 }
@@ -303,7 +317,31 @@ a.humbergar.siteBar-btn span {
 .header__right a span {
     display: none;
 }
+.banner__wrp {
+    padding: 20px;
+}
 
+.banner__text h3 {
+    font-size: 26px;
+}
+
+.banner__img {
+    display: none;
+}
+
+.svc_card{
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 350px;
+    margin-inline: auto;
+    display: block;
+}
+.Design__blk .flex{
+    flex-direction: column;
+}
+.pt_100{
+    padding-top: 50px;
+}
  
 }
  

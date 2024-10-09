@@ -15,9 +15,10 @@
     $('.side__bar').toggleClass('show');   
   }); 
 
+  $('select').niceSelect();
 
   // owlCarousel
-  $(".Video__card").owlCarousel({
+  $(".Video__slider").owlCarousel({
     loop: true,
     margin: 10,
     items: 6,
