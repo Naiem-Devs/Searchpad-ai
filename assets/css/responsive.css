@@ -210,6 +210,9 @@ a.humbergar.siteBar-btn span {
 .svc_card{
     margin-bottom: 20px;
 }
+.graphic__blk ul li {
+    width: calc(25% - 10px);
+}
 
 }
 
@@ -341,6 +344,12 @@ a.humbergar.siteBar-btn span {
 }
 .pt_100{
     padding-top: 50px;
+}
+.graphic__blk ul li {
+    width: calc(51% - 10px);
+}
+.Icon__card{
+    margin-bottom: 10px;
 }
  
 }

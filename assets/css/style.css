@@ -244,6 +244,7 @@ main::-webkit-scrollbar
   display: block;
   max-width: 35px;
   margin-left: auto;
+  height: 20px;
 }
 
 .humbergar span, 
@@ -479,6 +480,12 @@ a.user__link > img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 500;
+}
+
+.Design__title.v3 h3 {
+    background: linear-gradient(to right, #0D5817 0%, #BBE499 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .Design__title.v2 h3 {
@@ -855,6 +862,7 @@ button.thm_btn.v2 {
     border-radius: 8px;
     align-items: center;
     display: flex;
+    font-weight: 300;
 }
 
 .Design__blk button i {
@@ -885,6 +893,44 @@ button.thm_btn.v2 {
 }
 .Outlines__blk {background: #2B2A2A;padding: 20px 32px;border-radius: 10px;padding-bottom: 2px;}
 
+.Outlines__blk > p {
+    margin-bottom: 10px;
+}
+
+.outNavbar__blk {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+.outNavbar__blk a {
+    background: #2D2D2D;
+    border: 1px solid #272727;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #C9C9C9;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.outNavbar__blk a.active {
+    border: 1px solid #6949FF;
+    background: #191919;
+}
+
+.outNavbar__blk a i {
+    width: auto;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+}
+
 .input__blk {
     margin-bottom: 12px;
 }
@@ -914,7 +960,7 @@ button.thm_btn.v2 {
     line-height: 2;
 }
 
-.Outlines__blk a {
+.Outlines__blk > a,.Outlines__blk li a {
     background: linear-gradient(196.22deg, #2D2D2D 61.57%, rgba(147, 147, 147, 0.6) 422.12%);
     display: flex;
     align-items: center;
@@ -994,6 +1040,7 @@ button.thm_btn.v2 {
     font-size: 16px;
     border: none;
     padding-left: 0;
+    padding-right: 40px;
 }
 .accordion-collapse {
 }
@@ -1114,19 +1161,43 @@ button.thm_btn.v2 {
     height: 60px;
     overflow: hidden;
 }
-.v2 {
+
+.graphic__blk ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.Video__card {
+
+.graphic__blk p {
+    margin-bottom: 10px;
+    font-size: 14px;
 }
-.owl-carousel {
+
+.graphic__blk ul li a {
+    background: #171717;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #DADADA;
+    border-radius: 8px;
+    line-height: 1.2;
+    padding-right: 0;
 }
-.Video__slider {
+
+.graphic__blk ul li a i {
+    flex-shrink: 0;
 }
-.mt_50 {
+
+.graphic__blk ul li a span {}
+.graphic__blk ul li{
+    width: calc(20% - 10px);
 }
-.thm_btn {
-}
-.w-100 {
+
+li {}
+.graphic__blk{
+    margin-bottom: 20px;
 }
 /*============Video Area End =============*/
 
@@ -1186,7 +1257,8 @@ button.thm_btn.v2 {
   
   /* Header */
   .upload-area__header {
-  display: none;
+  
+display: none;
   }
   
   .upload-area__title {
