@@ -1,26 +1,308 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+    main{
+    padding: 20px 10px;
+}
+.body_right{
+    width: 300px;
+}
+.title__right {
+    width: 40%;
+    flex-shrink: 0;
+}
+.gb__info p {
+    font-size: 12px;
+}
 
+.sec__title p {
+    font-size: 14px;
+}
+
+.gb__link ul li a {
+    font-size: 14px;
+}
+
+.CreateBtn {
+    font-size: 14px;
+    padding: 12px 24px;
+}
+
+.Ratio__blk {
+    padding-right: 10px;
+}
+
+.Ratio__blk p span {
+    font-size: 13px;
+}
+
+.Ratio__blk p {
+    font-size: 10px;
+}
+
+.title__right a {
+    font-size: 12px;
+}
+
+.audio__name p {
+    font-size: 12px;
+}
 
 }
 
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+body{
+    font-size: 12px;
+}
 
-
+    main{
+        padding: 20px 10px;
+    }
+    .body_right{
+        width: 270px;
+        padding: 20px;
+    }
+    .title__right {
+        width: 40%;
+        flex-shrink: 0;
+    }
+    .gb__info p {
+        font-size: 12px;
+    }
+    
+    .sec__title p {
+        font-size: 12px;
+    }
+    
+    .gb__link ul li a {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+    
+    .CreateBtn {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+    
+    .Ratio__blk {
+        padding-right: 10px;
+        margin-bottom: 16px;
+    }
+    
+    .Ratio__blk p span {
+        font-size: 13px;
+    }
+    
+    .Ratio__blk p {
+        font-size: 12px;
+    }
+    
+    .title__right a {
+        font-size: 12px;
+    }
+    
+    .audio__name p {
+        font-size: 12px;
+    }
+    .header__right {
+        gap: 20px;
+    }
+    
+    .header__right a {
+        font-size: 12px;
+    }
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    body{
+        font-size: 12px;
+    }
+    
+        main{
+            padding: 20px 10px;
+        }
+        .body_right{
+            width: 270px;
+            padding: 20px;
+            position: fixed;
+            right: -300px;
+        }
 
+.body_right.show {}
+        button.back__btn{
+    rotate: -180deg;
+}
+.side__bar {
+    position: fixed;
+    left: -300px;
+}
+        .title__right {
+            width: 40%;
+            flex-shrink: 0;
+        }
+        .gb__info p {
+            font-size: 12px;
+        }
+        
+        .sec__title p {
+            font-size: 12px;
+        }
+        
+        .gb__link ul li a {
+            font-size: 12px;
+            padding: 12px 20px;
+        }
+        
+        .CreateBtn {
+            font-size: 14px;
+            padding: 12px 24px;
+        }
+        
+        .Ratio__blk {
+            padding-right: 10px;
+            margin-bottom: 16px;
+        }
+        
+        .Ratio__blk p span {
+            font-size: 13px;
+        }
+        
+        .Ratio__blk p {
+            font-size: 12px;
+        }
+        
+        .title__right a {
+            font-size: 12px;
+        }
+        
+        .audio__name p {
+            font-size: 12px;
+        }
+        .header__right {
+            gap: 20px;
+        }
+        
+        .header__right a {
+            font-size: 12px;
+        }
+
+a.humbergar.siteBar-btn span {
+    display: block;
+}
+
+.header__right a span {
+    display: none;
+}
 
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+    body{
+        font-size: 12px;
+    }
+    
+        main{
+            padding: 20px 10px;
+        }
+        .container-fluid{
+    padding: 0 15px;
+}
+        .body_right{
+            width: 270px;
+            padding: 20px;
+            position: fixed;
+            right: -300px;
+        }
+
+.body_right.show {}
+        button.back__btn{
+    rotate: -180deg;
+}
+
+.logo-area {
+    gap: 10px;
+}
+.header__mid h6{
+    font-size: 14px;
+}
+.logo-area a span {
+    display: none;
+}
+.side__bar {
+    position: fixed;
+    left: -300px;
+}
+        .title__right {
+            width: 100%;
+            flex-shrink: 0;
+        }
+        .gb__info p {
+            font-size: 12px;
+        }
+        
+        .sec__title p {
+            font-size: 12px;
+        }
+        
+        .gb__link ul li a {
+            font-size: 12px;
+            padding: 12px 18px;
+        }
+
+        .title__wrp {
+            flex-direction: column;
+            gap: 6px;
+            padding-bottom: 20px;
+            align-items: start;
+        }
+        
+        .CreateBtn {
+            font-size: 12px;
+            padding: 12px 24px;
+            gap: 10px;
+            display: flex;
+        }
+        
+        .Ratio__blk {
+            padding-right: 10px;
+            margin-bottom: 16px;
+        }
+        
+        .Ratio__blk p span {
+            font-size: 13px;
+        }
+        
+        .Ratio__blk p {
+            font-size: 12px;
+        }
+        
+        .title__right a {
+            font-size: 12px;
+        }
+        
+        .audio__name p {
+            font-size: 12px;
+        }
+        .header__right {
+            gap: 13px;
+        }
+        
+        .header__right a {
+            font-size: 12px;
+        }
+
+a.humbergar.siteBar-btn span {
+    display: block;
+}
+
+.header__right a span {
+    display: none;
+}
 
  
 }

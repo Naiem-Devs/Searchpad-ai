@@ -143,6 +143,23 @@ main::-webkit-scrollbar
     border-radius: 8px;
     border: 1px solid #2F2E2E;
     padding: 8px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.thm_btn:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: linear-gradient(180deg, #C5C5C5 0%, #2F2E2E 100%) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
 }
 
 /* default-css END 
@@ -161,6 +178,16 @@ main::-webkit-scrollbar
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.logo-area button {
+    flex-shrink: 0;
+    display: flex;
+    transition: all .3s;
+}
+
+.logo-area button.active {
+    rotate: -0deg;
 }
 
 .header__mid {
@@ -184,6 +211,7 @@ main::-webkit-scrollbar
 .header__right a i {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .header__mid h6 {
@@ -216,8 +244,8 @@ main::-webkit-scrollbar
 .humbergar span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 3px;
-  width: 34px;
+  height: 1px;
+  width: 24px;
   background: white;
   position: relative;
   display: block;
@@ -225,17 +253,17 @@ main::-webkit-scrollbar
   transition: all 250ms ease-in-out;
 }
 .humbergar span:before {
-  top: -12px;
+  top: -8px;
 }
 .humbergar span:after {
-  bottom: -9px;
+  bottom: -7px;
 }
 
 .humbergar.active span {
   background-color: transparent;
 }
 .humbergar.active span:before {
-  top:0px;
+  top: -2px;
   transform: rotate(45deg);
 }
 
@@ -300,7 +328,11 @@ main::-webkit-scrollbar
 
 /*============ side__bar Start =============*/
 
-.side__bar {width: 250px;flex-shrink: 0;padding: 15px;display: flex;align-items: center;flex-direction: column;justify-content: space-between;height: calc(100vh - 70px);border-right: 1px solid #3F3F3F;position: sticky;left: 0;padding-bottom: 30px;}
+.side__bar {width: 250px;flex-shrink: 0;padding: 15px;display: flex;align-items: center;flex-direction: column;justify-content: space-between;height: calc(100vh - 70px);border-right: 1px solid #3F3F3F;position: sticky;left: 0;padding-bottom: 30px;background: #1C1C1C;z-index: 99;transition: all .3s;}
+
+.side__bar.show {
+    left: 0;
+}
 
 .side__bar ul {
     width: 100%;
@@ -414,11 +446,15 @@ a.user__link > img {
 .gb__link ul li a.active {box-shadow: 0px 4px 9.6px 0px #8A71FF33;border-color: #6949FF;}
 .gb__info {display: flex;align-items: center;background: #252525;padding: 14px;border-radius: 8px;margin-top: 24px;gap: 16px;max-width: 90%;margin-inline: auto;}
 
+.gb__info i {
+    flex-shrink: 0;
+}
+
 .gb__info p {
     margin: 0;
 }
-.title__wrp {display: flex;align-items: center;justify-content: space-between;}
-.title__right {display: flex;align-items: center;gap: 10px;}
+.title__wrp {display: flex;align-items: center;justify-content: space-between;gap: 30px;}
+.title__right {display: flex;align-items: center;gap: 10px;justify-content: end;}
 
 .title__right a {
     background: linear-gradient(110.25deg, #2D2D2D 14.25%, #2D2D2D 47.06%);
@@ -433,6 +469,12 @@ a.user__link > img {
     border-radius: 8px;
     border: 1px solid #C5C5C5;
     box-shadow: 0px 1px 4px 0px #0000001A;
+    flex-shrink: 0;
+    transition: all .3s;
+}
+
+.title__right a:hover {
+    border-color: #6949FF;
 }
 
 .title__right a i {
@@ -481,6 +523,7 @@ a.user__link > img {
     justify-content: center;
     border-radius: 8px;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .audio__name p {
@@ -519,6 +562,7 @@ a.user__link > img {
     height: 32px;
     border-radius: 5px;
     background: linear-gradient(134.14deg, #2D2D2D 46.75%, rgba(147, 147, 147, 0.6) 154.84%);
+    flex-shrink: 0;
 }
 
 .Ratio__blk i.v1 {
@@ -596,8 +640,15 @@ a.user__link > img {
 .body_right {
     width: 380px;
     flex-shrink: 0;
-    padding: 40px 30px;
+    padding: 30px 30px;
     border-left: 1px solid #3F3F3F;
+    height: calc(100vh - 70px);
+    background: #1C1C1C;
+    transition: all .3s;
+}
+
+.body_right.show {
+    right: 0;
 }
 .reels__wrp {
 }

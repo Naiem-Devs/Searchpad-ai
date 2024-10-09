@@ -5,7 +5,14 @@
  $('.siteBar-btn').click( function (event){ 
     event.preventDefault()
     $(this).toggleClass('active');   
-    $('.mobile-menu').toggleClass('siteBar');   
+    $('.body_right').toggleClass('show');   
+  }); 
+  
+ // menu 
+ $('.back__btn').click( function (event){ 
+    event.preventDefault()
+    $(this).toggleClass('active');   
+    $('.side__bar').toggleClass('show');   
   }); 
 
 
@@ -59,6 +66,40 @@
       }
     }
   });
+
+  // Generate Video Button Selecting
+  var gbBtn = document.querySelectorAll(".gb__link a")
+
+  gbBtn.forEach(gbBtns => {
+    gbBtns.addEventListener("click", (e) => {
+      e.preventDefault()
+      gbBtnremove()
+      gbBtns.classList.add("active")
+    })
+  })
+
+  function gbBtnremove() {
+    gbBtn.forEach(gbBtns => {
+      gbBtns.classList.remove("active")
+    })
+  }
+
+  // Audio Plyer Active
+  var audioBtn = document.querySelectorAll(".audio__blk")
+
+  audioBtn.forEach(audioBtns => {
+    audioBtns.addEventListener("click", (e) => {
+      e.preventDefault()
+      audioBtnremove()
+      audioBtns.classList.add("active")
+    })
+  })
+
+  function audioBtnremove() {
+    audioBtn.forEach(audioBtns => {
+      audioBtns.classList.remove("active")
+    })
+  }
 
 
   // page Animation
