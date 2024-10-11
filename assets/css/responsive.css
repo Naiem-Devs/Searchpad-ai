@@ -1,361 +1,883 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-    main{
-    padding: 20px 10px;
-}
-.body_right{
-    width: 300px;
-}
-.title__right {
-    width: 40%;
-    flex-shrink: 0;
-}
-.gb__info p {
-    font-size: 12px;
-}
+    main {
+        padding: 20px 10px;
+    }
 
-.sec__title p {
-    font-size: 14px;
-}
+    .body_right {
+        width: 300px;
+    }
 
-.gb__link ul li a {
-    font-size: 14px;
-}
+    .title__right {
+        width: 40%;
+        flex-shrink: 0;
+    }
 
-.CreateBtn {
-    font-size: 14px;
-    padding: 12px 24px;
-}
+    .gb__info p {
+        font-size: 12px;
+    }
 
-.Ratio__blk {
-    padding-right: 10px;
-}
+    .sec__title p {
+        font-size: 14px;
+    }
 
-.Ratio__blk p span {
-    font-size: 13px;
-}
+    .gb__link ul li a {
+        font-size: 14px;
+    }
 
-.Ratio__blk p {
-    font-size: 10px;
-}
+    .CreateBtn {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
 
-.title__right a {
-    font-size: 12px;
-}
+    .Ratio__blk {
+        padding-right: 10px;
+    }
 
-.audio__name p {
-    font-size: 12px;
-}
+    .Ratio__blk p span {
+        font-size: 13px;
+    }
+
+    .Ratio__blk p {
+        font-size: 10px;
+    }
+
+    .title__right a {
+        font-size: 12px;
+    }
+
+    .audio__name p {
+        font-size: 12px;
+    }
+
+    .banner__wrp {
+        padding: 0 60px;
+    }
+
+    .Video__card.home {
+        flex-wrap: wrap;
+    }
+
+    .header__btns {
+        padding: 0;
+    }
 
 }
 
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-body{
-    font-size: 12px;
-}
+    body {
+        font-size: 12px;
+    }
 
-    main{
+    main {
         padding: 20px 10px;
     }
-    .body_right{
+
+    .header__btns {
+        padding: 0;
+    }
+
+    .body_right {
         width: 270px;
         padding: 20px;
     }
+
     .title__right {
         width: 40%;
         flex-shrink: 0;
     }
+
     .gb__info p {
         font-size: 12px;
     }
-    
+
     .sec__title p {
         font-size: 12px;
     }
-    
+
     .gb__link ul li a {
         font-size: 12px;
         padding: 12px 20px;
     }
-    
+
     .CreateBtn {
         font-size: 14px;
         padding: 12px 24px;
     }
-    
+
     .Ratio__blk {
         padding-right: 10px;
         margin-bottom: 16px;
     }
-    
+
     .Ratio__blk p span {
         font-size: 13px;
     }
-    
+
     .Ratio__blk p {
         font-size: 12px;
     }
-    
+
     .title__right a {
         font-size: 12px;
     }
-    
+
     .audio__name p {
         font-size: 12px;
     }
+
     .header__right {
         gap: 20px;
     }
-    
+
     .header__right a {
         font-size: 12px;
     }
+
     .banner__wrp {
         padding: 0 40px;
     }
-    
+
     .svc_card i span {
         scale: .6;
     }
+
+    .Video__card.home {
+        flex-wrap: wrap;
+    }
+
+    .Video__card.home a {
+        width: 31%;
+    }
+
+    .Solution__blk {
+        padding: 30px 24px;
+    }
+
+    .common-tab-btn ul li button {
+        font-size: 14px;
+    }
+
+    .VideoCreation__content ul li {
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+
+    .VideoCreation__img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .VideoCreation__img i {
+        display: block;
+        height: 100%;
+    }
+
+    .Brand__blk h2 {
+        font-size: 30px;
+    }
+
+    .login__content {
+        padding: 24px;
+        top: 0;
+    }
+
+    .login__content ul li {
+        margin-bottom: 5px;
+    }
+
+    .login__content ul li a {
+        height: 44px;
+    }
+
+    .login__content .line {
+        margin: 0 auto;
+    }
 }
 
- 
+
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    body{
+    body {
         font-size: 12px;
     }
-    
-        main{
-            padding: 20px 10px;
-        }
-        .body_right{
-            width: 270px;
-            padding: 20px;
-            position: fixed;
-            right: -300px;
-        }
 
-.body_right.show {}
-        button.back__btn{
-    rotate: -180deg;
-}
-.side__bar {
-    position: fixed;
-    left: -300px;
-}
-        .title__right {
-            width: 40%;
-            flex-shrink: 0;
-        }
-        .gb__info p {
-            font-size: 12px;
-        }
-        
-        .sec__title p {
-            font-size: 12px;
-        }
-        
-        .gb__link ul li a {
-            font-size: 12px;
-            padding: 12px 20px;
-        }
-        
-        .CreateBtn {
-            font-size: 14px;
-            padding: 12px 24px;
-        }
-        
-        .Ratio__blk {
-            padding-right: 10px;
-            margin-bottom: 16px;
-        }
-        
-        .Ratio__blk p span {
-            font-size: 13px;
-        }
-        
-        .Ratio__blk p {
-            font-size: 12px;
-        }
-        
-        .title__right a {
-            font-size: 12px;
-        }
-        
-        .audio__name p {
-            font-size: 12px;
-        }
-        .header__right {
-            gap: 20px;
-        }
-        
-        .header__right a {
-            font-size: 12px;
-        }
+    main {
+        padding: 20px 10px;
+    }
 
-a.humbergar.siteBar-btn span {
-    display: block;
+    .header__btns {
+        padding: 0;
+    }
+
+    .body_right {
+        width: 270px;
+        padding: 20px;
+        position: fixed;
+        right: -300px;
+    }
+
+
+    button.back__btn {
+        rotate: -180deg;
+    }
+
+    .side__bar {
+        position: fixed;
+        left: -300px;
+    }
+
+    .title__right {
+        width: 40%;
+        flex-shrink: 0;
+    }
+
+    .gb__info p {
+        font-size: 12px;
+    }
+
+    .sec__title p {
+        font-size: 12px;
+    }
+
+    .gb__link ul li a {
+        font-size: 12px;
+        padding: 12px 20px;
+    }
+
+    .CreateBtn {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .Ratio__blk {
+        padding-right: 10px;
+        margin-bottom: 16px;
+    }
+
+    .Ratio__blk p span {
+        font-size: 13px;
+    }
+
+    .Ratio__blk p {
+        font-size: 12px;
+    }
+
+    .title__right a {
+        font-size: 12px;
+    }
+
+    .audio__name p {
+        font-size: 12px;
+    }
+
+    .header__right {
+        gap: 20px;
+    }
+
+    .header__right a {
+        font-size: 12px;
+    }
+
+    a.humbergar.siteBar-btn span {
+        display: block;
+    }
+
+    .header__right a span {
+        display: none;
+    }
+
+    .banner__wrp {
+        padding: 0 40px;
+    }
+
+    .svc_card {
+        margin-bottom: 20px;
+    }
+
+    .graphic__blk ul li {
+        width: calc(25% - 10px);
+    }
+
+    .Video__card.home {
+        flex-wrap: wrap;
+    }
+
+    .Video__card.home a {
+        width: 23%;
+    }
+
+    .Gen__modal__wrp {
+        flex-direction: column;
+    }
+
+    .Gen__modal__content .btn-close {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+    }
+
+    .Gen__modal__img {
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+    .Solution__blk {
+        padding: 30px 24px;
+    }
+
+    .common-tab-btn ul li button {
+        font-size: 14px;
+        padding: 14px 0;
+    }
+
+    .VideoCreation__content ul li {
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+
+    .VideoCreation__img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .VideoCreation__img i {
+        display: block;
+        height: 100%;
+    }
+
+    .Brand__blk h2 {
+        font-size: 30px;
+    }
+
+    .main__menu ul {
+        gap: 0px;
+    }
+
+    .hero__content h1 {
+        font-size: 48px;
+    }
+
+    .index-body {
+        font-size: 14px;
+    }
+
+    .hero__content {
+        max-width: 520px;
+    }
+
+    .common-tab {
+        padding: 30px;
+    }
+
+    .Creators-area .sec__title h1 {
+        font-size: 48px;
+    }
+
+    footer.footer-area .logo-area {
+        text-align: center;
+        width: max-content;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-area {
+        padding: 40px 30px;
+    }
+
+    .Brand__content h1 {
+        font-size: 32px;
+        max-width: 280px;
+        margin: auto;
+    }
+
+    .Brand__blk {
+        padding: 36px;
+        height: 450px;
+    }
+
+    .login__content {
+        margin-bottom: 50px;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    .login-area .logo-area {
+        margin-bottom: 0;
+    }
+
+    .login-area .common-tab .VideoCreation__wrp {
+        flex-direction: column-reverse;
+    }
+
+    .login-area .common-tab {
+        margin-right: 0;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
 }
 
-.header__right a span {
-    display: none;
-}
-.banner__wrp {
-    padding: 0 40px;
-}
 
-.svc_card{
-    margin-bottom: 20px;
-}
-.graphic__blk ul li {
-    width: calc(25% - 10px);
-}
-
-}
-
- 
 /* small screen :320px. */
 @media (max-width: 767px) {
-    body{
+    body {
         font-size: 12px;
     }
-    
-        main{
-            padding: 20px 10px;
-        }
-        .container-fluid{
-    padding: 0 15px;
-}
-        .body_right{
-            width: 270px;
-            padding: 20px;
-            position: fixed;
-            right: -300px;
-        }
 
-.body_right.show {}
-        button.back__btn{
-    rotate: -180deg;
+    main {
+        padding: 20px 10px;
+    }
+
+    .header__btns button span {
+        display: none;
+    }
+
+    .header__btns .src__box {
+        display: none;
+    }
+
+    .header__btns button {
+        width: 50px;
+    }
+
+    .header__btns {
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 0 15px;
+    }
+
+    .body_right {
+        width: 270px;
+        padding: 20px;
+        position: fixed;
+        right: -300px;
+    }
+
+    button.back__btn {
+        rotate: -180deg;
+    }
+
+    .logo-area {
+        gap: 10px;
+    }
+
+    .header__mid h6 {
+        font-size: 14px;
+    }
+
+    .logo-area a span {
+        display: none;
+    }
+
+    .side__bar {
+        position: fixed;
+        left: -300px;
+    }
+
+    .title__right {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .gb__info p {
+        font-size: 12px;
+    }
+
+    .sec__title p {
+        font-size: 12px;
+    }
+
+    .gb__link ul li a {
+        font-size: 12px;
+        padding: 12px 18px;
+    }
+
+    .title__wrp {
+        flex-direction: column;
+        gap: 6px;
+        padding-bottom: 20px;
+        align-items: start;
+    }
+
+    .CreateBtn {
+        font-size: 12px;
+        padding: 12px 24px;
+        gap: 10px;
+        display: flex;
+    }
+
+    .Ratio__blk {
+        padding-right: 10px;
+        margin-bottom: 16px;
+    }
+
+    .Ratio__blk p span {
+        font-size: 13px;
+    }
+
+    .Ratio__blk p {
+        font-size: 12px;
+    }
+
+    .title__right a {
+        font-size: 12px;
+    }
+
+    .audio__name p {
+        font-size: 12px;
+    }
+
+    .header__right {
+        gap: 13px;
+    }
+
+    .header__right a {
+        font-size: 12px;
+    }
+
+    a.humbergar.siteBar-btn span {
+        display: block;
+    }
+
+    .header__right a span {
+        display: none;
+    }
+
+    .banner__wrp {
+        padding: 20px;
+    }
+
+    .banner__text h3 {
+        font-size: 26px;
+    }
+
+    .banner__img {
+        display: none;
+    }
+
+    .svc_card {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 350px;
+        margin-inline: auto;
+        display: block;
+    }
+
+    .Design__blk .flex {
+        flex-direction: column;
+    }
+
+    .pt_100 {
+        padding-top: 50px;
+    }
+
+    .graphic__blk ul li {
+        width: calc(51% - 10px);
+    }
+
+    .Icon__card {
+        margin-bottom: 10px;
+    }
+
+    .Video__card.home {
+        flex-wrap: wrap;
+    }
+
+    .Video__card.home a {
+        width: 48%;
+    }
+
+    .img__content__top .flex {
+        flex-direction: column;
+    }
+
+    .tab__btns ul li button {
+        font-size: 12px;
+    }
+
+
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 8px;
+    }
+
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 8px;
+    }
+
+
+
+    .div1 {
+        grid-row: span 2 / span 2;
+    }
+
+
+
+    .div3 {
+        grid-column-start: 2;
+    }
+
+    .div4 {
+        grid-row: span 2 / span 2;
+        grid-row-start: 3;
+        grid-column-start: 2;
+    }
+
+    .div5 {
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+
+    .div6 {
+        grid-column-start: 1;
+    }
+
+    .div7 {
+        grid-row-start: 4;
+    }
+
+    .div8 {
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+
+    .div9 {
+        grid-row: span 2 / span 2;
+        grid-column-start: 2;
+        grid-row-start: 5;
+    }
+
+    .div10 {
+        grid-row: span 2 / span 2;
+        grid-row-start: 7;
+        grid-column-start: 1;
+    }
+
+    .div11 {
+        grid-row-start: 7;
+        grid-column-start: 2;
+    }
+
+    .div12 {
+        grid-column-start: 2;
+        grid-row-start: 8;
+    }
+
+    .Gen__modal__wrp {
+        flex-direction: column;
+    }
+
+    .Gen__modal__content .btn-close {
+        position: absolute;
+        top: 5px;
+        right: 3px;
+    }
+
+    .Gen__modal__img {
+        max-width: 100%;
+        max-height: 410px;
+    }
+
+    .Solution__blk {
+        padding: 30px 24px;
+    }
+
+    .common-tab-btn ul li button {
+        font-size: 13px;
+        padding: 10px 20px;
+        width: max-content;
+    }
+
+    .VideoCreation__content ul li {
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+
+    .VideoCreation__img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .VideoCreation__img i {
+        display: block;
+        height: 100%;
+    }
+
+    .Brand__blk h2 {
+        font-size: 26px;
+    }
+
+    .Brand__blk i {
+        max-width: 190px;
+        margin: auto;
+        height: 170px;
+        margin-bottom: 20px;
+    }
+
+    .main__menu ul {
+        gap: 0px;
+    }
+
+    .hero__content h1 {
+        font-size: 30px;
+    }
+
+    .index-body {
+        font-size: 14px;
+    }
+
+    .hero__content {
+        max-width: 520px;
+    }
+
+    .common-btn {
+        padding: 13px 42px 13px;
+    }
+
+    .common-tab {
+        padding: 24px;
+    }
+
+    .Creators-area .sec__title h1 {
+        font-size: 28px;
+        max-width: 320px;
+        margin-inline: auto;
+    }
+
+    footer.footer-area .logo-area {
+        text-align: center;
+        width: max-content;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    footer.footer-area .logo-area a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    footer.footer-area .logo-area span {
+        display: block;
+    }
+
+    .footer-area {
+        padding: 40px 30px;
+    }
+
+    .Brand__content h1 {
+        font-size: 28px;
+        margin: auto;
+        margin-bottom: 14px;
+    }
+
+    .Brand__blk {
+        padding: 36px 20px;
+        height: 359px;
+        height: auto;
+    }
+
+    .Solutions__wrp {
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+    }
+
+    .Solution__img {
+        display: none;
+    }
+
+    .sign__btn {
+        gap: 20px;
+        width: max-content;
+    }
+
+    .common-tab-btn ul {
+        width: max-content;
+        gap: 10px;
+    }
+
+    .common-tab-btn {
+        overflow: auto;
+    }
+
+    .VideoCreation__wrp {
+        flex-direction: column-reverse;
+    }
+
+    .Brand-area .sec__title h1 {
+        font-size: 30px;
+    }
+
+    .Brand__content {
+        padding: 0px 20px 0;
+    }
+
+    .footer__nav ul.flex {
+        flex-direction: column;
+    }
+
+    .footer__nav {
+        margin-bottom: 40px;
+    }
+
+    .footer__nav ul.flex li {
+        width: 100%;
+    }
+
+    .footer__btm p {
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .footer__btm {
+        margin-top: 10px;
+    }
+
+    .social__link ul {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .login__content {
+        margin-bottom: 50px;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
+    .login-area .logo-area {
+        margin-bottom: 0;
+    }
+
+    .login-area .common-tab .VideoCreation__wrp {
+        flex-direction: column-reverse;
+    }
+
+    .login-area .common-tab {
+        margin-right: 0;
+        max-width: 400px;
+        margin-inline: auto;
+    }
+
 }
 
-.logo-area {
-    gap: 10px;
-}
-.header__mid h6{
-    font-size: 14px;
-}
-.logo-area a span {
-    display: none;
-}
-.side__bar {
-    position: fixed;
-    left: -300px;
-}
-        .title__right {
-            width: 100%;
-            flex-shrink: 0;
-        }
-        .gb__info p {
-            font-size: 12px;
-        }
-        
-        .sec__title p {
-            font-size: 12px;
-        }
-        
-        .gb__link ul li a {
-            font-size: 12px;
-            padding: 12px 18px;
-        }
-
-        .title__wrp {
-            flex-direction: column;
-            gap: 6px;
-            padding-bottom: 20px;
-            align-items: start;
-        }
-        
-        .CreateBtn {
-            font-size: 12px;
-            padding: 12px 24px;
-            gap: 10px;
-            display: flex;
-        }
-        
-        .Ratio__blk {
-            padding-right: 10px;
-            margin-bottom: 16px;
-        }
-        
-        .Ratio__blk p span {
-            font-size: 13px;
-        }
-        
-        .Ratio__blk p {
-            font-size: 12px;
-        }
-        
-        .title__right a {
-            font-size: 12px;
-        }
-        
-        .audio__name p {
-            font-size: 12px;
-        }
-        .header__right {
-            gap: 13px;
-        }
-        
-        .header__right a {
-            font-size: 12px;
-        }
-
-a.humbergar.siteBar-btn span {
-    display: block;
-}
-
-.header__right a span {
-    display: none;
-}
-.banner__wrp {
-    padding: 20px;
-}
-
-.banner__text h3 {
-    font-size: 26px;
-}
-
-.banner__img {
-    display: none;
-}
-
-.svc_card{
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 350px;
-    margin-inline: auto;
-    display: block;
-}
-.Design__blk .flex{
-    flex-direction: column;
-}
-.pt_100{
-    padding-top: 50px;
-}
-.graphic__blk ul li {
-    width: calc(51% - 10px);
-}
-.Icon__card{
-    margin-bottom: 10px;
-}
- 
-}
- 
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 450px
+    }
+
 }

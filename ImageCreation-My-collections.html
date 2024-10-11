@@ -1,0 +1,413 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Video Creation 3</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/audioplayer.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">  
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">  
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-4 col-md-4">
+                    <div class="logo-area">
+                        <button type="button" class="back__btn"><i class="far fa-long-arrow-left"></i></button>
+                        <a href="index.html"><img src="assets/img/logo-icon.svg" alt=""> <span>Searchpad</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 col-4">
+                    <div class="header__mid">
+                        <h6>Image Generator</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-4 col-md-4">
+                    <div class="header__right">
+                        <a href=""><i><img src="assets/img/coins-icon.svg" alt=""></i> <span>25 Tokens Left</span></a>
+                        <a href=""><i><img src="assets/img/crown-icon.svg" alt=""></i> <span>Upgrade</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area END -->
+
+
+    <div class="box__body">
+
+
+        <div class="side__bar">
+            <div class="img__generat">
+                <form action="" class="mb-3">
+                    <div class="textarea__blk">
+                        <textarea name="" id="" placeholder="Type a prompt"></textarea>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="thm_btn w-100"><i><img src="assets/img/all-icons/sparkles.svg" alt=""></i> <span>Generate</span></button>
+                    </div>
+                </form>
+                <div class="">
+                    <label for="">Style</label>
+                    <a href=""> <span>Realistic</span> <i class="far fa-chevron-right"></i></a>
+                </div>
+                <div class="">
+                    <label for="">Resolution </label>
+                    <ul>
+                        <li>
+                            <button>
+                                <span>Low</span>
+                                720p
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>Medium</span>
+                                1080p
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>High</span>
+                                4K
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>Custom size</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <label for="">Aspect Ratio</label>
+                    <ul>
+                        <li>
+                            <button>
+                                <i class="s23"></i>
+                                2:3
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="s11"></i>
+                                1:1
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="s16-9"></i>
+                                16:9
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>More Ratios</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <label for="">Number of Images </label>
+                    <div class="num__blk">
+                        <a href="#" class=" counter__decrement"><i class="fal fa-minus"></i></a>
+                        <input type="text" class="counter__input" value="0">
+                        <a href="#" class=" counter__increment"><i class="fal fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="">
+                    <label for="">Color Palette</label>
+                    <a href=""> <span>Realistic</span> <i class="far fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <main class="pt-0">
+
+            
+            
+            <!--------- Section START ---------->
+            <section class="Video-Creation">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tab__btns">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <i><img src="assets/img/all-icons/img-icon.svg" alt=""></i> My Creations</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i><img src="assets/img/all-icons/album-icon.svg" alt=""></i> Inspirations</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <div class="Creations__tab">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="img__content__top">
+                                                    <span>Sept. 28</span>
+                                                    <div class="flex">
+                                                        <p>Crypto Ai Illustration with coins flying around red and gold as the theme color adds a crypto human robot <i><img src="assets/img/all-icons/rotate-01.svg" alt=""></i> <i><img src="assets/img/all-icons/copy-icon.svg" alt=""></i></p>
+                                                        <ul>
+                                                            <li><a href=""><i class="fal fa-share-alt"></i></a></li>
+                                                            <li><a href=""><i class="fal fa-trash-alt"></i></a></li>
+                                                            <li><a href=""><i class="fal fa-ellipsis-v"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-8.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-8.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-8.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-8.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="img__content__top">
+                                                    <div class="flex">
+                                                        <p>A image showing a black female wearing vr headset in front of a cyberpunk city environment, layered gestures, dark purple and light amber, industrialization, realistic perspective, glass as material, high resolution - <i><img src="assets/img/all-icons/rotate-01.svg" alt=""></i> <i><img src="assets/img/all-icons/copy-icon.svg" alt=""></i></p>
+                                                        <ul>
+                                                            <li><a href=""><i class="fal fa-share-alt"></i></a></li>
+                                                            <li><a href=""><i class="fal fa-trash-alt"></i></a></li>
+                                                            <li><a href=""><i class="fal fa-ellipsis-v"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-9.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-9.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-9.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-9.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="img__content__top">
+                                                    <span>Oct. 1</span>
+                                                    <div class="flex">
+                                                        <p>Cat concept mobile app <i><img src="assets/img/all-icons/rotate-01.svg" alt=""></i> <i><img src="assets/img/all-icons/copy-icon.svg" alt=""></i></p>
+                                                        <ul>
+                                                            <li><a href=""><i class="fal fa-share-alt"></i></a></li>
+                                                            <li><a href=""><i class="fal fa-trash-alt"></i></a></li>
+                                                            <li><a href=""><i class="fal fa-ellipsis-v"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-10.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-10-1.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-10-2.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                                <div class="img__card">
+                                                    <a href=""><img src="assets/img/create-img-10-3.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <div class="Inspirations__tab">
+                                        <div class="parent">
+                                            <div class="div1"><a href=""><img src="assets/img/inp-1.png" alt=""></a></div>
+                                            <div class="div2"><a href=""><img src="assets/img/inp-2.png" alt=""></a></div>
+                                            <div class="div3"><a href=""><img src="assets/img/inp-3.png" alt=""></a></div>
+                                            <div class="div4"><a href=""><img src="assets/img/inp-4.png" alt=""></a></div>
+                                            <div class="div5"><a href=""><img src="assets/img/inp-5.png" alt=""></a></div>
+                                            <div class="div6"><a href=""><img src="assets/img/inp-6.png" alt=""></a></div>
+                                            <div class="div7"><a href=""><img src="assets/img/inp-7.png" alt=""></a></div>
+                                            <div class="div8"><a href=""><img src="assets/img/inp-8.png" alt=""></a></div>
+                                            <div class="div9"><a href=""><img src="assets/img/inp-9.png" alt=""></a></div>
+                                            <div class="div10"><a href=""><img src="assets/img/inp-10.png" alt=""></a></div>
+                                            <div class="div11"><a href=""><img src="assets/img/inp-11.png" alt=""></a></div>
+                                            <div class="div12"><a href=""><img src="assets/img/inp-12.png" alt=""></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--------- Section End ---------->
+   
+    
+        </main>
+
+
+    </div>
+
+
+  
+        <!-- Modal -->
+        <div class="modal fade Generat__modal " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="Gen__modal__wrp">
+                        <div class="Gen__modal__img">
+                            <img src="assets/img/modal-img.png" alt="">
+                        </div>
+                        <div class="Gen__modal__content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h6>Orb of the Eternal Sage</h6>
+                            <div class="textarea__blk">
+                                <textarea name="" id="">A young warrior with intricate dreadlocks stands with intense focus, holding a glowing golden orb. His attire features a combination of dark robes, gold accents, and bandages wrapped around his forearms. His piercing golden eyes reflect the mystical energy of the orb, while his strong, determined expression suggests a powerful connection to its magic. Behind him, a lush, natural landscape with waterfalls can be seen, adding a serene backdrop to the scene. The overall style blends anime and fantasy elements, with high detail and dynamic lighting.</textarea>
+                            </div>
+                            <div class="btns my-1">
+                                <button type="button"><i><img src="assets/img/all-icons/copy-icon.svg" alt=""></i> <span>Copy prompt</span></button>
+                                <button type="button"><i><img src="assets/img/all-icons/rotate-01.svg" alt=""></i> <span>Remix prompt</span></button>
+                            </div>
+                            <hr class="my-2">
+                            <ul>
+                                <li>
+                                    <label for="">Rendering Preferences</label>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Style</span>
+                                        Anime Fantasy
+                                    </p>
+                                    <p>
+                                        <span>Resolution</span>
+                                        4k
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Lighting</span>
+                                        Dynamic Lighting
+                                    </p>
+                                    <p>
+                                        <span>Color Mode</span>
+                                        Vibrant
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Camera Angle</span>
+                                        Medium Close
+                                    </p>
+                                    <p>
+                                        <span>Background</span>
+                                        Lush Nature
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Depth of Field</span>
+                                        Shallow Depth of Field
+                                    </p>
+                                    <p>
+                                        <span>Mood</span>
+                                        Epic & Mysterious
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Aspect Ratio</span>
+                                        2:3
+                                    </p>
+                                </li>
+                            </ul>
+                            <div class="btns">
+                                <a href="" class="thm_btn"><i><img src="assets/img/all-icons/star-icons-2.svg" alt=""></i> <span>Regenerate</span></a>
+                                <a href="" class="thm_btn v2"><i><img src="assets/img/all-icons/download-icon.svg" alt=""></i> <span>Download</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+
+            // ------------ Counter BEGIN ------------ 
+            $(".counter__increment, .counter__decrement").click(function(e)
+            {
+                e.preventDefault()
+                var $this = $(this);
+                var $counter__input = $(this).parent().find(".counter__input");
+                var $currentVal = parseInt($(this).parent().find(".counter__input").val());
+    
+                //Increment
+                if ($currentVal != NaN && $this.hasClass('counter__increment'))
+                {
+                    $counter__input.val($currentVal + 1);
+                }
+                //Decrement
+                else if ($currentVal != NaN && $this.hasClass('counter__decrement'))
+                {
+                    if ($currentVal >= 1) {
+                        $counter__input.val($currentVal - 1);
+                    }
+                }
+            });
+            // ------------ Counter END ------------ 
+    
+    
+    </script>
+    </body>
+</html>
+
