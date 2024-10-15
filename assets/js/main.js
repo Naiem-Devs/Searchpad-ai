@@ -15,6 +15,13 @@
     $('.side__bar').toggleClass('show');   
   }); 
 
+ // menu 
+ $('button.more__btn').click( function (event){ 
+    event.preventDefault()
+    $(this).toggleClass('active');   
+    $('.moreOpt').toggleClass('show');   
+  }); 
+
   $('select').niceSelect();
 
   // owlCarousel
