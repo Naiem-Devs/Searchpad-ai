@@ -1154,6 +1154,15 @@ button.more__btn i {
     font-size: 12px;
     border-radius: 8px;
     padding: 0 20px;
+    border: 1px solid #2D2D2D;
+}
+
+.img__generat a.active {
+    border: 1px solid #6949FF;
+}
+
+.side__bar ul button.active {
+    border: 1px solid #6949FF;
 }
 
 .img__generat a span {
@@ -1445,6 +1454,23 @@ a.user__link>img {
     color: #DADADA;
     background: #171717;
     padding-bottom: 8px;
+    position: relative;
+}
+
+.style__blk ul li a:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(../img/all-icons/ck-circle.svg);
+    top: 6px;
+    right: 6px;
+    z-index: 9;
+    opacity: 0;
+}
+
+.style__blk ul li a.active:after {
+    opacity: 1;
 }
 
 .style__blk ul li a.active {
@@ -2552,7 +2578,7 @@ a.user__link>img {
 }
 
 .img__content__top p a {
-    display: inline-flex !important;!i;!;
+    display: inline-flex !important;
 }
 
 .img__content__top p i {
@@ -2636,6 +2662,7 @@ i.fal.fa-ellipsis-v {
     border-radius: 8px;
     opacity: 0;
     transition: all .3s;
+    pointer-events: none;
 }
 
 .img__card:hover:before {
